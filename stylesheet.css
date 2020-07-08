@@ -1,0 +1,74 @@
+/*Style*/
+
+* {
+  box-sizing: border-box;  
+}
+body {
+  background-image: url(assets/background-moon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+
+}
+
+#title {
+  font-family: 'exo';
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0rem .1rem .5rem rgba(66, 17, 228, 1);
+  color:ivory;
+  padding: .4rem;;
+  background-color: rgba(0, 8, 20, 1);   
+  letter-spacing: .15rem;
+  
+}
+
+#menu {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.2rem;
+  width: 100vw;
+}
+#menu nav {
+  padding: 10px;  
+}
+
+#menu button {
+  font-family: 'exo';
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: .1rem .1rem rgba(95, 0, 179, .8);
+  color: ivory;
+  background: none;
+  border: .0;
+  box-shadow: 0 0 12px rgba(59, 4, 241, 1);
+  border-radius: 5px;
+  padding: .2rem .7rem;
+  letter-spacing: .15rem;
+}
+#getDishes {
+  height: 95vh;
+  width: 95vw;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px 12px #888888;
+  background: none;
+  font-family: cursive;
+  
+}
+#menu button:hover {
+  transform: scale(1.1);
+  
+
+}
+.introductory img {
+  width: 10vw;
+  height: 10vh;
+
+}
+
+
+
