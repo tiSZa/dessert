@@ -17,6 +17,28 @@ function getMainCourses() {
 function getPastas() {
   document.getElementById('getDishes').src = 'https://tisza.github.io/recipes/pastas';
   }
-function scrollWin() {
- window.scrollTo(0, 300);
+
+function scrollWin1() {
+  var elmnt = document.getElementById("recipeWrapper1");
+  elmnt.scrollIntoView();
+}
+function scrollWin2() {
+  var elmnt = document.getElementById("recipeWrapper2");
+  elmnt.scrollIntoView();
+}
+function scrollWin3() {
+  var elmnt = document.getElementById("recipeWrapper3");
+  elmnt.scrollIntoView();
+}
+function scrollWin4() {
+  var elmnt = document.getElementById("recipeWrapper4");
+  elmnt.scrollIntoView();
+}
+function scrollWin5() {
+  var elmnt = document.getElementById("recipeWrapper5");
+  elmnt.scrollIntoView();
+}
+function scrollWin6() {
+  var elmnt = document.getElementById("recipeWrapper6");
+  elmnt.scrollIntoView();
 }
