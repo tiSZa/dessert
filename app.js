@@ -15,7 +15,7 @@ function getMainCourses() {
 }
 
 function getPastas() {
-  document.getElementById('getDishes').src = 'file:///E:/projektek/recipes/pastas.html';
+  document.getElementById('getDishes').src = 'https://tisza.github.io/recipes/pastas';
   }
 
 
