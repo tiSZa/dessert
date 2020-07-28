@@ -24,7 +24,9 @@ body {
   text-align: center;
   background: rgba(11, 15, 34, 1);
   border: .1rem solid ivory;
- } 
+  position: relative;
+  top: 1.3rem;
+} 
 
 .introductory {
   padding: 1rem 1rem;
@@ -86,7 +88,7 @@ body {
 }
 
 #menu {
-  font-size: 1rem;
+  font-size: .8rem;
   background-color: rgba(11, 15, 34, 1);
   color: ivory;
   border: 1px solid ivory;
@@ -96,7 +98,7 @@ body {
 
 
 #jumpToThis {
-  font-size: 1rem;
+  font-size: .8rem;
   background-color: ivory;
   color: rgba(11, 15, 34, 1);
   font-weight: bold;
