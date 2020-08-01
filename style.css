@@ -50,7 +50,7 @@ body {
   margin-left: 5%;
 }
 
-.dishPic img{
+.dishPic img {
   display: table-cell;
   max-width: 45%;
   border-radius: 10px;
