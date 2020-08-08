@@ -26,9 +26,9 @@ function scrollWin() {
   var elmnt3 = document.getElementById("recipeWrapper3");
   var elmnt4 = document.getElementById("recipeWrapper4");  
   var elmnt5 = document.getElementById("recipeWrapper5");  
-  var elmnt5 = document.getElementById("recipeWrapper6");  
-  var elmnt5 = document.getElementById("recipeWrapper7");  
-  var elmnt5 = document.getElementById("recipeWrapper8");  
+  var elmnt6 = document.getElementById("recipeWrapper6");  
+  var elmnt7 = document.getElementById("recipeWrapper7");  
+  var elmnt8 = document.getElementById("recipeWrapper8");  
   var recipe = document.getElementById("menu");
   if (recipe.value == "1"){
     elmnt1.scrollIntoView(true);
