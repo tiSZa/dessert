@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;  
 }
+
 body {
   background-image: url(assets/background-moon.jpg);
   background-size: cover;
@@ -25,12 +26,10 @@ body {
 }
 
 #menu {
-  width: 100%;
   text-align: center;
-  padding: 5px;
   font-size: 1.2rem;
-  width: 100vw;
 }
+
 #menu nav {
   padding: 10px;  
 }
@@ -46,16 +45,15 @@ body {
   padding: .2rem .7rem;
   letter-spacing: .15rem;
 }
+
 #getDishes {
   height: 95vh;
-  width: 99vw;
-  border-radius: 5px;
-  border: 0;
+  width: 97vw;
+  border-radius: 5px;  
   box-shadow: 1px 1px 12px #888888;
   background: none;
-  font-family: cursive;
-  
 }
+
 #menu button:hover {
   transform: scale(1.1);
 }
