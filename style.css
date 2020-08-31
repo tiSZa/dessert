@@ -13,17 +13,14 @@ body {
   font-family: 'exo';
 }
 
-#recipeWrapper1 {
-  margin-top: 2rem;
-}
-
 .nameOfDish {
-  font-size: 1.3rem;
+  font-weight: bold;
+  font-size: 1.4rem;
   padding: 2px;
   display: block;
   text-align: center;
   background: rgba(11, 15, 34, 1);
-  border: .1rem solid ivory;
+  border: .2rem solid lightblue;
   position: relative;
   top: 1.3rem;
 } 
@@ -41,7 +38,7 @@ body {
   margin: 3% auto;  
 }
 
-.ingredients p {
+.ingredients p{
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -69,7 +66,7 @@ body {
 .recipe::after {
   content:"";
   display: block;
-  border: 1px solid ivory;
+  border: 1px solid lightblue;
   margin: 1% auto;
   width: 60%;
   filter:blur(1px);  
