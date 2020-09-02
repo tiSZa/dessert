@@ -12,7 +12,7 @@ body {
 }
 
 #title {
-  font-family: 'exo';
+  font-family: 'Vollkorn';
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
@@ -21,8 +21,7 @@ body {
   padding: .4rem;;
   background-color: rgba(0, 8, 20, 1);   
   box-shadow: 0 9px 8px rgba(0, 8, 21, 1);
-  letter-spacing: .15rem;
-  
+  letter-spacing: .15rem;  
 }
 
 #menu {
