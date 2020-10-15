@@ -75,7 +75,7 @@ body {
 
 /*NAVIGATION, EFFECTS AND VISIBILITY*/
 
-#switch-menu {
+#switchMenu {
   position: fixed;
   display: inline-block;
   float: left;
@@ -88,25 +88,29 @@ body {
   font-size: .8rem;
   background-color: rgba(11, 15, 34, 1);
   color: ivory;
-  border: 1px solid ivory;
+  border: 1px solid lightblue;
+  border-radius: 5px;
   font-weight: bold;
   letter-spacing: .1rem;
 }
 
 
-#jumpToThis {
+#jumpButton {
   font-size: .8rem;
   background-color: ivory;
   color: rgba(11, 15, 34, 1);
   font-weight: bold;
-  border: 1px solid rgba(11, 15, 34, 1);
+  border: 1px solid lightblue;
+  border-radius: 5px;
 }
 #menu:hover {
   background-color: rgba(20, 25, 45, 1);
+  transform: scale(1.1);
   
 }
-#jumpToThis:hover {
+#jumpButton:hover {
   background-color: ghostwhite;
+  transform: scale(1.1);
 }
 
 #recipeWrapper8 {
