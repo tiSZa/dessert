@@ -21,6 +21,7 @@ body {
   text-align: center;
   background: rgba(11, 15, 34, 1);
   border: .2rem solid lightblue;
+  border-radius: 5px;
   position: relative;
   top: 1.3rem;
 } 
@@ -85,7 +86,7 @@ body {
 }
 
 #menu {
-  font-size: .8rem;
+  font-size: .9rem;
   background-color: rgba(11, 15, 34, 1);
   color: ivory;
   border: 1px solid lightblue;
@@ -96,7 +97,7 @@ body {
 
 
 #jumpButton {
-  font-size: .8rem;
+  font-size: .9rem;
   background-color: ivory;
   color: rgba(11, 15, 34, 1);
   font-weight: bold;
@@ -105,12 +106,10 @@ body {
 }
 #menu:hover {
   background-color: rgba(20, 25, 45, 1);
-  transform: scale(1.1);
-  
 }
+
 #jumpButton:hover {
-  background-color: ghostwhite;
-  transform: scale(1.1);
+  background-color: ghostwhite;  
 }
 
 #recipeWrapper8 {
