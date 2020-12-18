@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
   <!--CSS Reset by E. Meyer--> 
-  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
   <!--Exo font family-->
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
   <!--Great Vibes font family-->
-  <link rel="stylesheet" type="text/css" href="mainStyle.css">  
-  <!--CSS-->  
-  <script src="app.js"></script>
-  <!--js-->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <!--CSS for the front page-->  
+  <link rel="stylesheet" type="text/css" href="frontPageStyle.css"> 
+  <!--JavaScript for the front page-->
+  <script src="frontPage.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Receptgyűjtemény</title>
+  <title>Tündekenyér</title>
 </head>
  <body>
-  <div id="header">
-    <h1 id="title">Tündekenyér</h1>
-   </div>
-  <div id="menu">  
-       <nav>        
-         <button onclick="getDish('soups')">Levesek</button>
-         <button onclick="getDish('garnishes')">Köretek</button>      
-         <button onclick="getDish('desserts')">Desszertek</button>
-         <button onclick="getDish('mainCourses')">Főételek</button>
-         <button onclick="getDish('pastas')">Pékáruk</button>
-     </nav>
-    <iframe id="getDishes" src="about:blank"></iframe>
-  </div>
+  <div class="header">
+    <h1 class="title">Tündekenyér</h1></div>
+  <div class="navBar">  
+    <nav>        
+      <button class="button" onclick="getDish('soups')">Levesek</button>
+      <button class="button" onclick="getDish('garnishes')">Köretek</button>      
+      <button class="button" onclick="getDish('desserts')">Desszertek</button>
+      <button class="button" onclick="getDish('mainCourses')">Főételek</button>
+      <button class="button" onclick="getDish('pastas')">Pékáruk</button>
+    </nav></div>
+  <div class="iframe">
+    <iframe id="getDishes" src="about:blank"></iframe></div>
 </body>
 </html>
