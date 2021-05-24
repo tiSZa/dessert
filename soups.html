@@ -1,145 +1,113 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
   <!--CSS Reset by E. Meyer--> 
-  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
   <!--font-family: Exo-->
-  <link rel="stylesheet" type="text/css" href="iframeStyle.css"> 
-  <!--CSS-->
+  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <!--CSS for recipes-->
+  <link rel="stylesheet" type="text/css" href="iframeStyle.css">   
   <!--JavaScript for recipes-->
   <script src="content.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 </head>
 <body>
-  <div id="switchMenu">      
-      <select id="menu">
-        <option value=3>Falusi leves burgonyagombóccal</option>  
-        <option value=1>Francia hagymaleves</option>
-        <option value=2>Toszkán paradicsomleves</option> 
-      </select>  
-     <button id="jumpButton" onclick="scrollWin();">Ugrás</button>
-  </div>
-  <div id="recipeWrapper1">
-    <div class="nameOfDish">
-      <h1>Francia hagymaleves </h1>
-  </div>
-  <div class="introductory">
+ <div class="selectRecipe">      
+    <select id="menu">
+      <option value=3>Falusi leves burgonyagombóccal</option>
+      <option value=1>Francia hagymaleves</option>
+      <option value=2>Toszkán paradicsomleves</option></select> 
+    <button class="jumpButton" onclick="scrollWin();">Ok</button></div>
+  <div class="recipeWrapper 1">
+    <div class="nameOfTheDish">
+      <h1>Francia hagymaleves </h1></div>
+   <div class="ingredients">
+      <p>Hozzávalók: </p>  
+      <ul>
+        <li>- 2 nagy fej vöröshagyma</li>
+        <li>- 4 gerezd fokhagyma</li>
+        <li>- 1 db póréhagyma, vagy egy csokor újhagyma</li>
+        <li>- kb 50 gramm vaj</li>   
+        <li>- só</li>
+        <li>- bors</li>
+        <li>- kakukkfű</li>
+        <li>- 1 dl száraz fehérbor</li>
+        <li>- kb 4-5 dl alaplé, vagy víz</li></ul>
+      <ul>Tálaláshoz:
+        <li>- reszelt sajt</li>
+        <li>- pirított baguette</li></ul></div>
+    <div class="foodPhoto">
+        <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/francia_hagymaleves.jpg" alt="francia hagymaleves"></div>     
+    <div class="recipe">
+      <p>A vöröshagymákat és a póréhagymát (vagy újhagymát) karikákra vágom és egy edényben vajon hevíteni kezdem. Közepes vagy kicsit alacsonyabb hőfokon, kevergetés mellett addig karamellizálom a hagymákat, míg szép barna színt nem kapnak. Minél lassabban, annál jobb. <br>A folyamat felénél hozzáadom a felaprított fokhagymát is. Ha a hagyma szép barna, felöntöm a deci borral, majd hagyom szinte teljesen elpárologni, közben felkeverve a letapadt nemes pörzsanyagokat. Ezután felöntöm az alaplével, vagy vízzel, fűszerezem és pár percig forralom.<br> A kész levest tányérba szedve reszelt sajttal és pirított baguettel tálalom.</p></div></div> 
+  <div class="recipeWrapper 2"> 
+    <div class="nameOfTheDish">
+      <h1>Toszkán paradicsomleves</h1></div>
     <div class="ingredients">
-     <p>Hozzávalók: </p>  
-     <ul>
-      <li>- 2 nagy fej vöröshagyma</li>
-      <li>- 4 gerezd fokhagyma</li>
-      <li>- 1 db póréhagyma, vagy egy csokor újhagyma</li>
-      <li>- kb 50 gramm vaj</li>   
-      <li>- só</li>
-      <li>- bors</li>
-      <li>- kakukkfű</li>
-      <li>- 1 dl száraz fehérbor</li>
-      <li>- kb 4-5 dl alaplé, vagy víz</li></ul>
+      <p>Hozzávalók:</p>  
+      <ul>
+        <li>- 8 darab paradicsom</li>
+        <li>- 6-7 gerezd fokhagyma</li>
+        <li>- csilipehely</li>
+        <li>- 1 db vöröshagyma, vagy póréhagyma</li>
+        <li>- 2-3 szelet szikkadt ciabatta</li>
+        <li>- só</li>
+        <li>- bors</li>
+        <li>- bazsalikom</li>
+        <li>- olivaolaj</li></ul>
      <ul>Tálaláshoz:
-      <li>- reszelt sajt</li>
-      <li>- pirított baguette</li></ul>
-   </div>
-   <div class="dishPic">
-    <img src="" alt="francia hagymaleves">
-    </div>
-  </div>
-  <div class="recipe">
-   <p>A vöröshagymákat és a póréhagymát (vagy újhagymát) karikákra vágom és egy edényben vajon hevíteni kezdem. Közepes vagy kicsit alacsonyabb hőfokon, kevergetés mellett addig karamellizálom a hagymákat, míg szép barna színt nem kapnak. Minél lassabban, annál jobb. <br>A folyamat felénél hozzáadom a felaprított fokhagymát is. Ha a hagyma szép barna, felöntöm a deci borral, majd hagyom szinte teljesen elpárologni, közben felkeverve a letapadt nemes pörzsanyagokat. Ezután felöntöm az alaplével, vagy vízzel, fűszerezem és pár percig forralom.<br> A kész levest tányérba szedve reszelt sajttal és pirított baguettel tálalom.</p>
-  </div>
-  </div> 
-  <div id="recipeWrapper2"> 
-   <div class="nameOfDish">
-      <h1>Toszkán paradicsomleves</h1>
-   </div>
-  <div class="introductory">
+        <li>- pirított ciabatta</li>
+        <li>- olívaolaj</li>
+        <li>- reszelt sajt</li></ul></div>
+    <div class="foodPhoto">
+        <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/toszkán_paradicsomleves.jpg" alt="paradicsomleves"></div>
+     <div class="recipe">
+      <p>A felaprított hagymát és fokhagymát(ezt egészben, roppantva) olívaolajon párolni kezdem. Az üvegesre párolt hagymára rádobom a hámozott, felkockázott paradicsomokat és pár percig párolom. Közben hozzáteszem a csilipelyhet, a sót, a bazsalikomot és a borsot.<br> Néhány perc párolás után hozáöntök némi vizet és a kis darabokra vágott szikkadt ciabattát. Ezután annyi vízzel öntöm fel, hogy a turmixolás után egy sűrű levest kapjak. Addig forralom, míg a kenyér pépessé nem válik.<br>Ezután a levest közepesen leturmixolom, nem baj ha maradnak benne kisebb, rusztikusabb darabok.<br>Tálaláskor reszelt sajttal, olivaolajjal és pirított ciabattával tálalom.</p></div></div> 
+  <div class="recipeWrapper 3">
+    <div class="nameOfTheDish">
+      <h1>Falusi leves burgonyagombóccal</h1></div>
     <div class="ingredients">
-     <p>Hozzávalók:</p>  
-     <ul>
-       <li>- 8 darab paradicsom</li>
-       <li>- 6-7 gerezd fokhagyma</li>
-       <li>- csilipehely</li>
-       <li>- 1 db vöröshagyma, vagy póréhagyma</li>
-       <li>- 2-3 szelet szikkadt ciabatta</li>
-       <li>- só</li>
-       <li>- bors</li>
-       <li>- bazsalikom</li>
-       <li>- olivaolaj</li></ul>
-    <ul>Tálaláshoz:
-       <li>- pirított ciabatta</li>
-       <li>- olívaolaj</li>
-       <li>- reszelt sajt</li></ul>
-   </div>
-   <div class="dishPic">
-    <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/toszkán_paradicsomleves.jpg" alt="">
-    </div>
-  </div>
-  <div class="recipe">
-   <p>A felaprított hagymát és fokhagymát(ezt egészben, roppantva) olívaolajon párolni kezdem. Az üvegesre párolt hagymára rádobom a hámozott, felkockázott paradicsomokat és pár percig párolom. Közben hozzáteszem a csilipelyhet, a sót, a bazsalikomot és a borsot. <br> Néhány perc párolás után hozáöntök némi vizet és a kis darabokra vágott szikkadt ciabattát. Ezután annyi vízzel öntöm fel, hogy a turmixolás után egy sűrű levest kapjak. Addig forralom, míg a kenyér pépessé nem válik.<br>Ezután a levest közepesen leturmixolom, nem baj ha maradnak benne kisebb, rusztikusabb darabok. <br>Tálaláskor reszelt sajttal, olivaolajjal és pirított ciabattával tálalom. </p>
-  </div>
-  </div> 
-  <div id="recipeWrapper3">
-  <div class="nameOfDish">
-      <h1>Falusi leves burgonyagombóccal</h1>
-  </div>
-  <div class="introductory">
+      <p>Hozzávalók:</p>  
+      <ul>A leveshez:
+        <li>- 2 db sárgarépa</li>
+        <li>- 1 fél zeller</li>
+        <li>- 1 db fehérrépa</li>
+        <li>- 20 dkg füstölt kolbász</li>      
+        <li>- bors</li>
+        <li>- só</li>
+        <li>- szárított gombakeverék</li>
+        <li>- borsikafű</li>
+        <li>- 1 fej vöröshagyma</li>
+        <li>- 3 gerezd fokhagyma</li>
+        <li>- zsír</li>
+        <li>- 2 dl tejföl</li></ul>
+     <ul>A gombóchoz:
+       <li>- 2 db közepes burgonya</li>
+       <li>- 1 db tojás</li>
+       <li>- petrezselyemzöld</li>
+       <li>- kb 3 evőkanál liszt</li></ul></div>
+    <div class="foodPhoto">
+        <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/falusi_leves.jpg" alt="falusi leves"></div>
+    <div class="recipe">
+      <p>A burgonyát meghámozom, felkockázom és sós vízben főzni kezdem.<br>A kolbászt felkarikázom és kevés zsíron enyhén pirítani kezdem. A kisült zsírból a kolbászokat kiveszem, majd belehelyezem az apróra vágott vöröshagymát.<br>Ha a hagyma üvegesre párolódott, rádobom a felszeletelt gyökérzöldségeket és 2-3 percig együtt párolom őket. Ezután ráöntöm a burgonya főzőlevét, és még annyi vizet amennyi a szükséges leves mennyiségéhez kell. Fűszerezem, hozzáteszem a fokhagymát, a félretett kolbászokat, majd közepes lángon főzöm tovább.<br>A főtt burgonyát áttöröm, majd hozzáadom a tojást, a petrezselymet és a lisztet és alaposan elkeverem. Olajos kézzel kis gombócokat formázok belőlük.<br>Ha a levesben a zöldségek már majdnem megpuhultak, belehelyezem a gombócokat. Közben a 2 dl tejfölhöz kis lisztet adok és alaposan elkeverem. Ha a gombócok a leves tetejére feljönnek, hozzáöntöm a tejfölt és még egyet forralok rajt.</p></div></div> 
+  <div class="recipeWrapper 8">
+    <div class="nameOfTheDish">
+      <h1></h1></div>
     <div class="ingredients">
-     <p>Hozzávalók:</p>  
-     <ul>
-      <li>- 2 db sárgarépa</li>
-      <li>- 1 fél zeller</li>
-      <li>- 1 db fehérrépa</li>
-      <li>- 20 dkg füstölt kolbász</li>      
-      <li>- bors</li>
-      <li>- só</li>
-      <li>- szárított gombakeverék</li>
-      <li>- borsikafű</li>
-      <li>- 1 fej vöröshagyma</li>
-      <li>- 3 gerezd fokhagyma</li>
-      <li>- zsír</li>
-      <li>- 2 dl tejföl</li>
-     </ul>
-    <ul>A gombóchoz:
-     <li>- 2 db közepes burgonya</li>
-     <li>- 1 db tojás</li>
-     <li>- petrezselyemzöld</li>
-     <li>- kb 3 evőkanál liszt</li></ul>
-   </div>
-   <div class="dishPic">
-    <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/falusi_leves.jpg" alt="falusi leves">
-    </div>
-  </div>
+      <p></p>  
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>      
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li></ul></div>
+  <div class="foodPhoto">
+       <img src="" alt=""></div>
   <div class="recipe">
-   <p>A burgonyát meghámozom, felkockázom és sós vízben főzni kezdem.<br>A kolbászt felkarikázom és kevés zsíron enyhén pirítani kezdem. A kisült zsírból a kolbászokat kiveszem, majd belehelyezem az apróra vágott vöröshagymát.<br>Ha a hagyma üvegesre párolódott, rádobom a felszeletelt gyökérzöldségeket és 2-3 percig együtt párolom őket. Ezután ráöntöm a burgonya főzőlevét, és még annyi vizet amennyi a szükséges leves mennyiségéhez kell. Fűszerezem, hozzáteszem a fokhagymát, a félretett kolbászokat, majd közepes lángon főzöm tovább.<br>A főtt burgonyát áttöröm, majd hozzáadom a tojást, a petrezselymet és a lisztet és alaposan elkeverem. Olajos kézzel kis gombócokat formázok belőlük.<br>Ha a levesben a zöldségek már majdnem megpuhultak, belehelyezem a gombócokat. Közben a 2 dl tejfölhöz kis lisztet adok és alaposan elkeverem. Ha a gombócok a leves tetejére feljönnek, hozzáöntöm a tejfölt és még egyet forralok rajt.</p>
-  </div>
-  </div> 
-  <div id="recipeWrapper8">
-  <div class="nameOfDish">
-      <h1></h1>
-  </div>
-  <div class="introductory">
-    <div class="ingredients">
-     <p></p>  
-     <ul>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>      
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     </ul>
-   </div>
-   <div class="dishPic">
-    <img src="" alt="">
-    </div>
-  </div>
-  <div class="recipe">
-   <p> </p>
-  </div>
-  </div> 
+      <p> </p></div></div>
 </body>
 </html>

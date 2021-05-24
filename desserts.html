@@ -1,117 +1,90 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
   <!--CSS Reset by E. Meyer--> 
-  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
   <!--font-family: Exo-->
-  <link rel="stylesheet" type="text/css" href="iframeStyle.css"> 
-  <!--CSS-->
+  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <!--CSS for recipes-->
+  <link rel="stylesheet" type="text/css" href="iframeStyle.css">   
   <!--JavaScript for recipes-->
   <script src="content.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 </head>
 <body>
-  <div id="switchMenu">      
-      <select id="menu">
-        <option value=1>Bodzás palacsinta</option>
-        <option value=4>Cantuccini</option>
-        <option value=2>Túrógombóc</option>
-        <option value=3>Panna cotta</option>        
-      </select>  
-     <button id="jumpButton" onclick="scrollWin();">Ugrás</button>
-  </div>
-  <div id="recipeWrapper1">
-    <div class="nameOfDish">
-      <h1>Bodzás palacsinta</h1>
-  </div>
-  <div class="introductory">
+  <div class="selectRecipe">      
+    <select id="menu">
+      <option value=1>Bodzás palacsinta</option>
+      <option value=4>Cantuccini</option>
+      <option value=3>Panna Cotta</option>  
+      <option value=2>Túrógombóc</option></select>      
+    <button class="jumpButton" onclick="scrollWin();">Ok</button></div>
+  <div class="recipeWrapper 1">
+    <div class="nameOfTheDish">
+      <h1>Bodzás palacsinta</h1></div>
     <div class="ingredients">
      <p>Hozzávalók: </p>  
      <ul>
-     <li>- 5 db tojás</li>
-     <li>- 300 gramm finomliszt</li>
-     <li>- 5 dl tej</li>
-     <li>- 5 dl szódavíz</li>      
-     <li>- 1 csipet só</li>
-     <li>- 1 csapott evőkanál kristálycukor</li>
-     <li>- 1 csomag vaníliás cukor</li>
-     <li>- 1 fél citrom reszelt héja</li>
-     <li>- 5 fej bodzavirág</li>
-     <li>- kb fél dl étolaj</li>
-     </ul>
-   </div>
-   <div class="dishPic">
-    <img src="" alt="palacsinta">
-    </div>
-  </div>
-  <div class="recipe">
-   <p>A tojásokat feltörjük egy tálba és hozzáadjuk a sót, a kristálycukrot, a vaníliáscukrot és felverjük. Ezután beleöntjük a tejet, majd a lisztet fokozatosan adagolva, csomómentesre keverjük. A végén belekeverjük a kb fél dl olajat és a szódavizet, végül a citromhéjat és az apróra vágott bodzavirágot, majd hagyjuk állni a tésztát 10-15 percig. Közepes láng felett, enyhén kiolajozott palacsintasütőben készre sütjük a palacsintákat. Eperlekvárral, tejszínhabbal és csokiöntettel tálaljuk.</p>
-  </div>
-  </div>       
-  <div id="recipeWrapper2"> 
-   <div class="nameOfDish">
-      <h1>Túrógombóc</h1>
-   </div>
-  <div class="introductory">
+       <li>- 5 db tojás</li>
+       <li>- 300 gramm finomliszt</li>
+       <li>- 5 dl tej</li>
+       <li>- 5 dl szódavíz</li>      
+       <li>- 1 csipet só</li>
+       <li>- 1 csapott evőkanál kristálycukor</li>
+       <li>- 1 csomag vaníliás cukor</li>
+       <li>- 1 fél citrom reszelt héja</li>
+       <li>- 5 fej bodzavirág</li>
+       <li>- kb fél dl étolaj</li></ul></div>
+    <div class="foodPhoto">
+        <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/palacsinta.jpg" alt="palacsinta"></div>
+    <div class="recipe">
+      <p>A tojásokat feltörjük egy tálba és hozzáadjuk a sót, a kristálycukrot, a vaníliáscukrot és felverjük. Ezután beleöntjük a tejet, majd a lisztet fokozatosan adagolva, csomómentesre keverjük. A végén belekeverjük a kb fél dl olajat és a szódavizet, végül a citromhéjat és az apróra vágott bodzavirágot, majd hagyjuk állni a tésztát 10-15 percig. Közepes láng felett, enyhén kiolajozott palacsintasütőben készre sütjük a palacsintákat. Ízlés szerint eperlekvárral, tejszínhabbal, csokiöntettel stb. tálaljuk.</p></div></div>       
+  <div class="recipeWrapper 2"> 
+    <div class="nameOfDish">
+      <h1>Túrógombóc</h1></div>
     <div class="ingredients">
-     <p>Hozzávalók:</p>  
+      <p>Hozzávalók:</p>  
+      <ul>
+        <li>- 500 gramm félzsíros túró </li>
+        <li>- só </li>
+        <li>- méz </li>
+        <li>- 2 dl búzadara </li>
+        <li>- zabpehely </li>
+        <li>- mandula </li>
+        <li>- kókuszreszelék </li>
+        <li>- tejföl </li>
+        <li>- 3 db tojás</li></ul></div>
+    <div class="foodPhoto">
+        <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/túrógombóc.jpg"  alt="túrógombóc"></div>
+    <div class="recipe">
+      <p>A túrót egy tálban összekeverem 2 dl-nyi búzadarával, 3 db tojással és ízlés szerinti mézzel, majd hűtőben pihentetem 2-3 óráig.<br>Eközben a zabpelyhet kevés mandulával együtt finomra darálom és egy száraz, forró serpenyőben aranybarnára pirítom. A túróból kisebb gombócokat formázok és enyhén sós, lobogó vízben megfőzöm pár perc alatt.<br>A lecsöpögtetett gombócokat a pirított morzsalékba, vagy kókuszreszelékbe forgatom, tejföllel és mandulával tálalom.</p></div></div> 
+  <div class="recipeWrapper 3"> 
+    <div class="nameOfTheDish">
+      <h1>Panna cotta (zselatin nélkül)</h1></div>
+    <div class="ingredients">
+      <p>Hozzávalók:</p>  
+      <ul>Panna cottához:
+        <li>- 350 ml habtejszín </li>
+        <li>- 100 ml 3,5%-os tej </li>
+        <li>- 2 tojásfehérje </li>
+        <li>- 2 csepp vanília aroma </li>
+        <li>- 75 gramm kristálycukor </li>
+        <li>- só </li></ul>
+      <ul>Karamell öntethez:
+        <li>- 50 gramm kristálycukor </li>
+        <li>- 100 ml habtejszín </li>
+        <li>- 30 gramm vaj </li></ul></div>
+    <div class="foodPhoto">
+        <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/panna_cotta.jpg" alt="panna cotta"></div>
+    <div class="recipe">
+      <p>A tejet, a cukrot és a habtejszínt elkeverem és közel forrásig hevítem, majd beleteszek 2 csepp vaníliaromát. Félreteszem hülni szobahőmérsékletűre. A tojásfehérjéket kézzel kicsit habosra verem és egy fél csipet sóval együtt a kihült tejbe keverem.<br> A keveréket hőálló kis formaedényekbe töltöm, egy magas falú tepsibe teszem és köré vizet öntök. 160C°-os előmelegített sütőbe, körülbelül 60 perc alatt készre sütöm.<br> Hagyom kihülni, majd hűtőbe teszem minimum egy órára.<br>Az öntetthez a cukrot karamellizálom, majd fokozatosan hozzákeverem a forró habtejszínt, legvégén pedig a vajat.<br>Tálaláskor a panna cottát a formaedényből kiborítom és karamell öntettel vagy gyümölcsöntettel, csokiöntettel, stb. tálalom.</p></div></div> 
+  <div class="recipeWrapper 4"> 
+   <div class="nameOfTheDish">
+     <h1>Cantuccini</h1></div>
+   <div class="ingredients">
+     <p>Hozzávalók: </p>  
      <ul>
-       <li>- 500 gramm félzsíros túró </li>
-       <li>- só </li>
-       <li>- méz </li>
-       <li>- 2 dl búzadara </li>
-       <li>- zabpehely </li>
-       <li>- mandula </li>
-       <li>- kókuszreszelék </li>
-       <li>- tejföl </li>
-       <li>- 3 db tojás</li></ul>
-   </div>
-   <div class="dishPic">
-    <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/túrógombóc.jpg"  alt="túrógombóc">
-    </div>
-  </div>
-  <div class="recipe">
-   <p>A túrót egy tálban összekeverem 2 dl-nyi búzadarával, 3 db tojással és ízlés szerinti mézzel, majd hűtőben pihentetem 2-3 óráig. <br>Eközben a zabpelyhet kevés mandulával együtt finomra darálom és egy száraz, forró serpenyőben aranybarnára pirítom. A túróból kisebb gombócokat formázok és enyhén sós, lobogó vízben megfőzöm pár perc alatt. <br>A lecsöpögtetett gombócokat a pirított morzsalékba, vagy kókuszreszelékbe forgatom, tejföllel és mandulával tálalom.</p>
-  </div>
-  </div> 
-  <div id="recipeWrapper3"> 
-   <div class="nameOfDish">
-      <h1>Panna cotta (zselatin nélkül)</h1>
-   </div>
-  <div class="introductory">
-    <div class="ingredients">
-     <p>Hozzávalók:</p>  
-     <ul>Panna cottához:
-       <li>- 350 ml habtejszín </li>
-       <li>- 100 ml 3,5%-os tej </li>
-       <li>- 2 tojásfehérje </li>
-       <li>- 2 csepp vanília aroma </li>
-       <li>- 75 gramm kristálycukor </li>
-       <li>- só </li>
-       </ul>
-    <ul>Karamell öntethez:
-       <li>- 50 gramm kristálycukor </li>
-       <li>- 100 ml habtejszín </li>
-       <li>- 30 gramm vaj </li></ul>
-   </div>
-   <div class="dishPic">
-    <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/panna_cotta.jpg" alt="panna cotta">
-    </div>
-  </div>
-  <div class="recipe">
-   <p>A tejet, a cukrot és a habtejszínt elkeverem és közel forrásig hevítem, majd beleteszek 2 csepp vaníliaromát. Félreteszem hülni szobahőmérsékletűre. A tojásfehérjéket kézzel kicsit habosra verem és egy fél csipet sóval együtt a kihült tejbe keverem. <br> A keveréket hőálló kis formaedényekbe töltöm, egy magas falú tepsibe teszem és köré vizet öntök. 160C°-os előmelegített sütőbe, körülbelül 60 perc alatt készre sütöm. <br> Hagyom kihülni, majd hűtőbe teszem minimum egy órára.<br>Az öntetthez a cukrot karamellizálom, majd fokozatosan hozzákeverem a forró habtejszínt, legvégén pedig a vajat. <br>Tálaláskor a panna cottát a formaedényből kiborítom és karamell öntettel vagy gyümölcsöntettel, csokiöntettel, stb. tálalom.</p>
-  </div>
-  </div> 
-  <div id="recipeWrapper4"> 
-   <div class="nameOfDish">
-      <h1>Cantuccini</h1>
-   </div>
-  <div class="introductory">
-    <div class="ingredients">
-     <p></p>  
-     <ul>Hozzávalók:
        <li>- 500 gramm liszt</li>
        <li>- 200 gramm kristálycukor</li>
        <li>- 2 csomag vaníliás cukor</li>
@@ -121,45 +94,28 @@
        <li>- 1/3 csomag sütőpor</li>
        <li>- kb 100 gramm mandula</li>
        <li>- 1 fél narancs héja</li>
-       <li>- 1 fél citrom héja</li></ul>       
-   </div>
-   <div class="dishPic">
-    <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/cantuccini.jpg" alt="cantuccini">
-    </div>
-  </div>
-  <div class="recipe">
-   <p>A lisztet, cukrokat egy csipet sót és a sütőport elkeverem egy nagy tálban. A 4 tojást felverem és egy keveset félreteszek belőle a kenéshez, a többit a tésztához adom. Hozzáteszem a reszelt narancs és citromhéjat, az olvasztott vajat és a legvégén a mandulát. A tésztát pár perc alatt készre dagasztom. 4 egyenlő részre osztom és hengereket fomázok belőlük. A tetejüket megkenem tojással, majd 180C°-ra előmelegített sütőbe teszem 15 percre. Ezután a hengereket ferdén kb 2 cm-es vastag szeletekre vágom, és visszateszem a sütőbe további 10-15 percre.</p>
-  </div>
-  </div> 
-  <div id="recipeWrapper8"> 
-   <div class="nameOfDish">
-      <h1></h1>
-   </div>
-  <div class="introductory">
+       <li>- 1 fél citrom héja</li></ul></div>
+    <div class="foodPhoto">
+        <img src="https://raw.githubusercontent.com/tiSZa/recipes/master/assets/cantuccini.jpg" alt="cantuccini"></div>
+    <div class="recipe">
+      <p>A lisztet, cukrokat egy csipet sót és a sütőport elkeverem egy nagy tálban. A 4 tojást felverem és egy keveset félreteszek belőle a kenéshez, a többit a tésztához adom. Hozzáteszem a reszelt narancs és citromhéjat, az olvasztott vajat és a legvégén a mandulát. A tésztát pár perc alatt készre gyúrom. 4 egyenlő részre osztom és hengereket formázok belőlük. A tetejüket megkenem tojással, majd 180C°-ra előmelegített sütőbe teszem 15 percre. Ezután a hengereket ferdén kb 2 cm-es vastag szeletekre vágom, és visszateszem a sütőbe további 10-15 percre.</p></div></div> 
+  <div class="recipeWrapper 8">
+    <div class="nameOfTheDish">
+      <h1></h1></div>
     <div class="ingredients">
-     <p></p>  
-     <ul>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li></ul>
-    <ul>
-       <li>- </li>
-       <li>- </li>
-       <li>- </li></ul>
-   </div>
-   <div class="dishPic">
-    <img src="" alt="">
-    </div>
-  </div>
-  <div class="recipe">
-   <p></p>
-  </div>
-  </div> 
+      <p></p>  
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>      
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li></ul></div>
+    <div class="foodPhoto">
+        <img src="" alt=""></div>
+    <div class="recipe">
+      <p> </p></div></div>
 </body>
 </html>

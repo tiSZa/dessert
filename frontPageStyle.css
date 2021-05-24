@@ -1,6 +1,6 @@
-/*________________________________________________*\
+/*------------------------------------------------*\
   *THIS CSS IS FOR THE APPEARANCE OF THE FRONT PAGE
-\*________________________________________________*/
+\*------------------------------------------------*/
 
 /**---SECTIONS:---*
   *
@@ -22,6 +22,7 @@
   *---MEDIA QUERY---*
 *
 */
+
 /*---BOX SIZING---*/ 
 * {
   box-sizing: border-box;  
@@ -50,6 +51,16 @@ body {
   color:ivory;   
 }
 
+#myButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 9999;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
 /*---NAVBAR RULES---*/
 .navBar {
   text-align: center;
@@ -67,6 +78,7 @@ body {
   border: 0;
   padding: .2rem .7rem;
   letter-spacing: .15rem;
+  text-decoration: none;
 }
 
 .button:hover {
