@@ -1,6 +1,6 @@
-function scrollWin(){  
+function scrollWin() {  
   let recipe = document.getElementById("menu");
-  if (recipe.value == "1"){
+  if (recipe.value == "1") {
     let elmnt1 = document.getElementsByClassName("recipeWrapper1");
     elmnt1.scrollIntoView(true);
   }
