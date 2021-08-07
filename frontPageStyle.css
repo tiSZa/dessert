@@ -54,11 +54,16 @@ body {
 #myButton {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 15px;
   right: 30px;
   z-index: 9999;
+  font-size: .9rem;
+  background-color: ivory;
+  color: rgba(11, 15, 34, 1);
+  font-weight: bold;
+  border: 1px solid lightblue;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 1.1rem;
 }
 
 /*---NAVBAR RULES---*/
