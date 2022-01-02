@@ -1,5 +1,5 @@
 /*-----------------------------------------------------*\
-  *THIS CSS IS FOR THE APPEARANCE OF THE IFRAME(RECIPES)
+  *THIS CSS IS FOR THE APPEARANCE OF THE IFRAME(WELCOME)
 \*-----------------------------------------------------*/
 
 /**---SECTIONS:---*
@@ -18,23 +18,24 @@
 
 /*---BODY RULES---*/
 body {
-  margin-top: 8%; 
-  background-color: rgba(0, 1, 20, 0.85);
   color: ivory;
   text-shadow: 1px 2px 10px blue;
-  font-family: 'exo';
 }
 
 
 /*---WELCOME TITLE CONTAINER RULES---*/
 .welcome {
+  margin-top: 8%;
+  font-family: 'Great vibes';
   font-weight: bold;
   font-size: 1.4rem;
-  padding: 4px;
   display: block;
-  text-align: center;  
+  text-align: center;    
 }
 
 #date {
   margin-top: 8%;
+  display: block;
+  text-align: center;   
+  font-family: 'Exo';
 }
