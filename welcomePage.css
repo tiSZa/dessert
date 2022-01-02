@@ -1,0 +1,40 @@
+/*-----------------------------------------------------*\
+  *THIS CSS IS FOR THE APPEARANCE OF THE IFRAME(RECIPES)
+\*-----------------------------------------------------*/
+
+/**---SECTIONS:---*
+  *
+  *---BOX SIZING---*
+  *
+  *---BODY---*
+  *
+  *---WELCOME TITLE CONTAINER---*
+    * 1. date rules *
+  
+/*---BOX SIZING---*/ 
+* {
+  box-sizing: border-box;  
+}
+
+/*---BODY RULES---*/
+body {
+  margin-top: 8%; 
+  background-color: rgba(0, 1, 20, 0.85);
+  color: ivory;
+  text-shadow: 1px 2px 10px blue;
+  font-family: 'exo';
+}
+
+
+/*---WELCOME TITLE CONTAINER RULES---*/
+.welcome {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 4px;
+  display: block;
+  text-align: center;  
+}
+
+#date {
+  margin-top: 8%;
+}
